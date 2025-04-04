@@ -7,8 +7,8 @@ using UnityEngine.Networking;
 
 public class Microtransaction : MonoBehaviour
 {
-    [SerializeField] private string baseUrl = "http://yourapi.com"; // Set this to your API base URL
-    [SerializeField] private string appId = "480"; // replace with your own appId
+    [SerializeField] private string baseUrl = "https://secret-springs-59125-b8b8e3bb88bd.herokuapp.com"; // Set this to your API base URL
+    [SerializeField] private string appId = "2887140"; // replace with your own appId
 
     // finish transaction callback
     protected Callback<MicroTxnAuthorizationResponse_t> m_MicroTxnAuthorizationResponse;
